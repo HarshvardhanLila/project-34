@@ -12,7 +12,7 @@ var chain1, chain2, chain3, chain4, chain5;
 
 
 function setup() {
-	createCanvas(windowWidth/2, windowHeight/25);
+	createCanvas(windowWidth/2, windowHeight/1.5);
 	engine = Engine.create();
 	world = engine.world;
 	

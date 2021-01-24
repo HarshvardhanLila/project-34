@@ -11,6 +11,7 @@ class Sling {
         this.pointX = bodyA.x;
         this.pointY = bodyA.y - 250;
         this.sling = Constraint.create(options);
+        World.add(world,this.sling);
     }
 
         display(){
